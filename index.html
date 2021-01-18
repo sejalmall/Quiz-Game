@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script scr="Contestant.js"></script>
+    <script scr="Question.js"></script>
+    <script scr="Quiz.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+
+
+    <script>
+        const firebaseConfig = {
+  apiKey: "AIzaSyA-tE6Sc50Jp7JlkLz4u_mQixNECbYCgDY",
+  authDomain: "quiz-time-16909.firebaseapp.com",
+  databaseURL: "https://quiz-time-16909-default-rtdb.firebaseio.com",
+  projectId: "quiz-time-16909",
+  storageBucket: "quiz-time-16909.appspot.com",
+  messagingSenderId: "895116419395",
+  appId: "1:895116419395:web:6e84bb1d87c9a016830ff6"
+};
+  firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
